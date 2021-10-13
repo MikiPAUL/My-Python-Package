@@ -11,8 +11,12 @@ Run:
 In a terminal or command window, navigate to the top-level project directory cd My_Python_package/ (that contains this README) and run the following command:
 
 pip install .
+
 python
 from Bi_Gau_distribution import Gaussian
-gaussian_one = Gaussian(25, 2)
+
+gaussian_one = Gaussian(43, 2)
+
 gaussian_one.mean
+
 gaussian_one + gaussian_one
